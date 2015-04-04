@@ -6,6 +6,7 @@ package com.c4q.davisroman;
 public class Student {
     private String name;
     private int numOfPencilsInPocket;
+    private lunchbox lunch;
 
     public Student(String name){
         this.name = name;
@@ -20,7 +21,16 @@ public class Student {
     public void setNumOfPencilsInPocket(int numOfPencilsInPocket){
         this.numOfPencilsInPocket = numOfPencilsInPocket;
     }
-    public void setLunchBox(lunchbox item){
-        //FIXME
+
+    public void setLunchBox(lunchbox lunch){
+        this.lunch = lunch;
     }
+
+    public lunchbox getLunchBox() {
+        return lunch;
+    }
+
+
 }
+
+

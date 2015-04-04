@@ -1,6 +1,8 @@
 package com.c4q.davisroman;
 
 
+import java.util.HashSet;
+
 public class Main {
 
 
@@ -11,6 +13,7 @@ public class Main {
         Teacher msArcentales    = new Teacher("Ms.Arcentales");
         Teacher msLui           = new Teacher("Ms.Lui");
 
+
         Student kevin           = new Student("kevin");
         Student amanda          = new Student("amanda");
         Student billy           = new Student("billy");
@@ -20,6 +23,7 @@ public class Main {
         Student jackie          = new Student("jackie");
         Student laura           = new Student("laura");
         Student tommy           = new Student("tommy");
+
 
         lunchbox redLunchbox    = new lunchbox("red");
         lunchbox yellowLunchbox = new lunchbox("yellow");
@@ -90,6 +94,10 @@ public class Main {
         System.out.println("Teachers that have students with less than 3 pencils in their pocket:");
         judy.teachersThatHaveStudentsWithLessThanACertainNumberOfPencils(3);
 
+        //
+        //
+
 
     }
+
 }
